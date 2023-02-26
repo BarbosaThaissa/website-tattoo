@@ -31,7 +31,7 @@ header {
   width: 100%;
   color: white;
   height: 10vh;
-  position: static;
+  position: sticky;
   top: 0;
 }
 
@@ -39,7 +39,7 @@ header {
   background-color: #212121;
   color: #fff;
   min-height: 70vh;
-  margin: 0;
+  margin-top: -3.2rem;
 }
 
 h2 {
@@ -404,6 +404,7 @@ footer {
   margin-top: 100px;
   background: #212121;
   color: white;
+  padding-bottom: 0.5rem;
 }
 
 footer .right {
@@ -424,8 +425,8 @@ footer .right i {
 }
 
 footer .right i:hover {
-  border: 1px solid #0e6c66;
-  color: #0e6c66;
+  border: 1px solid #31d831;
+  color: #31d831;
 }
 
 footer .grid {
@@ -460,6 +461,7 @@ footer iframe {
   color: #fff;
   background-color: #212121;
   border-top: 1px solid #fff;
+  margin-top: -3.2rem;
 }
 
 .legal i {
@@ -545,6 +547,16 @@ footer iframe {
   p {
     font-size: 12px;
   }
+
+  button {
+    max-width: 200px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    gap: 2px;
+  }
 }
 
 .wpp-logo {
@@ -574,4 +586,12 @@ footer iframe {
 
 .legal > a:hover {
   text-decoration: underline;
+}
+
+button > a {
+  color: #fff;
+}
+
+button > a:hover {
+  color: #31d831;
 }
